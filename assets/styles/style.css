@@ -280,14 +280,21 @@ footer p {
 @media screen and (max-width: 470px) {
 
     /* Estilos para telas até 470px pixels de largura */
+    header a img{
+        width: 60px;;
+    }
+    header nav a{
+        font-size: 0.8rem;
+        padding: 0 10px;
+    }
     #inicio img {
-        width: 400px;
+        width: 80%;
         height: auto;
     }
 
     #inicio .shape {
-        top: 350px;
-        width: 470px;
+        top: 250px;
+        width: 370px;
     }
 
     #inicio {
@@ -309,7 +316,7 @@ footer p {
     }
 
     #clinica img {
-        width: 400px;
+        width: 80%;
         height: auto;
     }
 
